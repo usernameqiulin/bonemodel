@@ -1,0 +1,42 @@
+{
+  "name": "@bone/bone-mobile-ui-demo",
+  "version": "1.0.0",
+  "description": "Bone 移动端 UI 库，Demo 插件",
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.alibaba-inc.com:bone/bone-mobile-ui-demo.git"
+  },
+  "keywords": [
+    "bone",
+    "iot",
+    "react",
+    "react-native",
+    "component",
+    "ui",
+    "demo",
+    "frontend",
+    "mobile"
+  ],
+  "author": "宁邦 <ningbang.wnb@alibaba-inc.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@bone/bone-mobile": "^2.2.0",
+    "@bone/bone-mobile-ui": "^2.0.0",
+    "@bone/intl": "^0.1.14",
+    "react-native": "0.41.2"
+  },
+  "main": "app.js",
+  "scripts": {
+    "lint": "eslint ./app ./app.js",
+    "fix": "eslint --fix ./app ./app.js",
+    "build": "bone build",
+    "start": "bone start"
+  },
+  "bnpm": {
+    "mode": "yarn"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.2",
+    "eslint-config-ali": "^2.0.3"
+  }
+}
